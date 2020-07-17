@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HealthCareApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">View Remainder</string>
+    <string-array name="Musics">
+        <item>Music1</item>
+        <item>Music2</item>
+        <item>Music3</item>
+        <item>Music4</item>
+        <item>Music5</item>
+        <item>Music6</item>
+        <item>Music7</item>
+        <item>Music8</item>
+        <item>Music9</item>
+        <item>Music10</item>
+    </string-array>
+    <string-array name="Tips">
+        <item>Health Tip #1</item>
+        <item>Health Tip #2</item>
+        <item>Health Tip #3</item>
+        <item>Health Tip #4</item>
+        <item>Health Tip #5</item>
+        <item>Health Tip #6</item>
+        <item>Health Tip #7</item>
+        <item>Health Tip #8</item>
+        <item>Health Tip #9</item>
+        <item>Health Tip #10</item>
+        <item>Health Tip #11</item>
+        <item>Health Tip #12</item>
+    </string-array>
+    <string-array name="Symptoms">
+        <item>Allergies</item>
+        <item>Appendicitis</item>
+        <item>Astama</item>
+        <item>Cholera</item>
+        <item>Dengue</item>
+        <item>Diabetes</item>
+        <item>Fever</item>
+        <item>Influenza</item>
+        <item>Malaria</item>
+        <item>StomachCancer</item>
+        <item>Tuberculosis</item>
+        <item>Typhoid</item>
+    </string-array>
+</resources>

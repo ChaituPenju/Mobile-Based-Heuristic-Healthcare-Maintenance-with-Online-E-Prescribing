@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    color : #5e9bff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #70b2ff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+    a:active{
+        background-color: #4CAF50;
+    }
+
+li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+<h2>Operations</h2>
+<ul>
+<li><a href="del_patient.html" target="main">Delete Patient</a></li>
+<li><a href="add_doctor.html" target="main">Add New Doctor</a></li>
+<li><a href="del_doctor.html" target="main">Delete Existing Doctor</a></li>
+<li><a href="view_doctor.php" target="main">View Doctors</a></li>
+<li><a href="view_patient.php" target="main">View Patients</a></li>
+<li><a href="view_prescription.php" target="main">View E-Prescrptions</a></li>
+<li><a href="del_ep.html" target="main">Delete E-Prescription</a></li>
+<li><a href="Admin%20Login.html" target="_parent">Log Out</a></li>
+    <li><a href="http://localhost:8085/phpmyadmin//#PMAURL-1:db_structure.php?db=practice" target="_blank">Modify Entire Data</a></li>
+</ul>
+</body>
+</html>

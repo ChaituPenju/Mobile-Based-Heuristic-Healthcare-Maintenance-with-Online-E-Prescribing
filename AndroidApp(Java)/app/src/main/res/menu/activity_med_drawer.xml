@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prescribe"
+            android:icon="@drawable/ic_menu_view"
+            android:title="My E-Prescription" />
+        <item
+            android:id="@+id/nav_remainder"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Remainders" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_menu_health"
+            android:title="My Health Tips" />
+        <item
+            android:id="@+id/nav_symptoms"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Check Symptoms" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music"
+            android:title="Music Therapy" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact US" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Mail" />
+        </menu>
+    </item>
+
+</menu>
