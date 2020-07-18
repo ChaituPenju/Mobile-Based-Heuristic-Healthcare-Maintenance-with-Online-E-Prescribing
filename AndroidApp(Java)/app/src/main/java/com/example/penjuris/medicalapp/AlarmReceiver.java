@@ -1,11 +1,9 @@
 package com.example.penjuris.medicalapp;
 
 import android.app.Activity;
-import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,7 +12,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PowerManager;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.widget.Toast;
 
 
@@ -34,7 +32,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         }
         Ringtone ringtone = RingtoneManager.getRingtone(context, alarmUri);
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
-        pm.newWakeLock(PowerManager.FULL_WAKE_LOCK,"Alarm Wake Up");
+        pm.newWakeLock(PowerManager.FULL_WAKE_LOCK,"Alarm:Wake Up");
         ringtone.play();
         Toast.makeText(context,"AlarmReceived",Toast.LENGTH_SHORT).show();
         Intent i = new Intent(context.getApplicationContext(), Medicine_Info.class);
